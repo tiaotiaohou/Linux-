@@ -118,10 +118,21 @@ find . -type d
 ![](./images/t8.jpg)
 
 ![](./images/t82.jpg)
+### 9. `locate` 快速查找文件或目录（依赖自建索引，查找速度比find快）
+
+```bash
+# 1. 查找所有包含passwd的文件
+locate passwd
+# 2. 查找所有扩展名为conf的配置文件
+locate "*.conf"
+```
+
+![](./images/999.jpg)
+
+![](./images/99999.png)
 
 
-
-### 9. `grep` 在文件中查找匹配指定模式的文本行
+### 10. `grep` 在文件中查找匹配指定模式的文本行
 
 ```bash
 # 1. 在/etc/passwd文件中查找包含root的行
