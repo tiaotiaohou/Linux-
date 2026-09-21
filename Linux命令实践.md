@@ -187,4 +187,4 @@ sort -u words.txt
 sort -r words.txt
 ```
 
-![](./images/TF.jpg)
+![](./images/tf.jpg)
